@@ -1,8 +1,7 @@
-import { UiCard } from '@/components';
-import { LayoutCards } from '@/layout';
 import { onFilterType } from '@/lib';
 import { type Movie, type EntryMovie, ProgramTypesEnum } from '@/types';
 import { notFound } from 'next/navigation';
+import { UiPage } from './components';
 
 interface Prop {
   params: { type: string };
@@ -20,21 +19,7 @@ async function Page({ params }: Prop): Promise<JSX.Element> {
     notFound();
   }
   const movies: EntryMovie[] = await getDataMovies(params.type.toLowerCase());
-  return (
-    <LayoutCards>
-      {movies.map((item, index) => (
-        <UiCard
-          image={item.images['Poster Art'].url}
-          title={item.title}
-          key={item.title}
-          index={index}
-          description={item.description}
-          year={item.releaseYear}
-          urlImg
-        />
-      ))}
-    </LayoutCards>
-  );
+  return <UiPage movies={movies} />;
 }
 
 export default Page;
