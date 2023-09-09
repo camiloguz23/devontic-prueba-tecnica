@@ -1,0 +1,44 @@
+.header {
+  width: 100%;
+  margin-bottom: 30px;
+
+  .main {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--bg-blue);
+    height: 60px;
+    align-items: center;
+
+    .title {
+      font-size: 28px;
+      text-decoration: none;
+    }
+
+    .login {
+      background-color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      margin-right: 20px;
+    }
+
+    .freeTrial {
+      background-color: var(--bg-black-light);
+      padding: 4px 12px;
+      cursor: pointer;
+    }
+  }
+
+  .second {
+    background-color: var(--bg-black-light);
+    justify-content: start;
+    align-items: center;
+    height: 50px;
+    display: flex;
+    padding-left: 30px;
+
+    .subTitle {
+      font-size: 26px;
+    }
+  }
+}
