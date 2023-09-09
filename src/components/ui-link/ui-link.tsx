@@ -19,7 +19,7 @@ function UiLink({ text, href = '', black, divider, links = [] }: Prop): JSX.Elem
         ? (
         <div className={style.div}>
           {links.map((item) => (
-            <Link key={item.path} href={item.path} className={setStyle()}>
+            <Link key={item.name} href={item.path} className={setStyle()}>
               {item.name}
             </Link>
           ))}
