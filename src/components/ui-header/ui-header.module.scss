@@ -6,12 +6,21 @@
     display: flex;
     justify-content: space-around;
     background-color: var(--bg-blue);
-    height: 60px;
+    min-height: 60px;
     align-items: center;
+    padding: 10px;
+    
 
     .title {
       font-size: 28px;
       text-decoration: none;
+    }
+
+    .containerBtn {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
     }
 
     .login {
@@ -19,7 +28,6 @@
       border: none;
       outline: none;
       cursor: pointer;
-      margin-right: 20px;
     }
 
     .freeTrial {

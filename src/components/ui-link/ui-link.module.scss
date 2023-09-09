@@ -1,0 +1,26 @@
+.link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 18px;
+  border: solid 1px transparent;
+  width: fit-content;
+
+  &.divider {
+    border-right-color: white;
+    &:nth-last-child(1) {
+      border-right-color: transparent;
+    }
+  }
+
+  &.black {
+    color: black;
+  }
+}
+
+.div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}

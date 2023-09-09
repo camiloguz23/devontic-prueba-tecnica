@@ -1,0 +1,23 @@
+.footer {
+  background-color: var(--bg-black-light);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: 0;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+  .container {
+    width: 90%;
+  }
+
+  .containerIcon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+}

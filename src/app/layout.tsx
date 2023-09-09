@@ -1,4 +1,4 @@
-import { UiHeader } from '@/components';
+import { UiHeader, UiFooter } from '@/components';
 import './globals.scss';
 import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
@@ -18,6 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }):
         <RecoilProvider>
           <UiHeader />
           {children}
+          <UiFooter />
         </RecoilProvider>
       </body>
     </html>
