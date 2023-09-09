@@ -12,7 +12,7 @@ La libreria Mui se implento para el [modal](https://mui.com/material-ui/react-mo
 
 esta implementado [Recoil JS](https://recoiljs.org/ "Recoil JS"), se configuro y se establecio el store base pero no se uso debido que no habia informacion para que o almacenar informacion en algun estado, pues next brinda mucho ya ayudas para manejar ciertas cosas.
 
-Para el testing se uso [vitest](https://vitest.dev/guide/ "vitest") donde se implemento al projecto y se hizo unas pruebas en dos components.
+Para el testing se uso [vitest](https://vitest.dev/guide/ "vitest") donde se implemento al proyecto y se hizo unas pruebas en dos components.
 
 ### ¿Hay alguna mejora que pueda hacer en su envío?
 
@@ -43,3 +43,5 @@ Un diseño mas moderno a los distintos componentes, una section de register y lo
 
 
 ------------
+
+[ver el proyecto en la Web](https://devontic-prueba-tecnica.vercel.app/ "ver el proyecto en la Web")
