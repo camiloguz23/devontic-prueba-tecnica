@@ -14,6 +14,8 @@ esta implementado [Recoil JS](https://recoiljs.org/ "Recoil JS"), se configuro y
 
 Para el testing se uso [vitest](https://vitest.dev/guide/ "vitest") donde se implemento al proyecto y se hizo unas pruebas en dos components.
 
+y para correr en local en proyecto, hay que agregar un archivo **.env** a nivel root de la carpeta con la siguiente variable `Base_URL=localhost:3000`
+
 ### ¿Hay alguna mejora que pueda hacer en su envío?
 
 Mas que mejoras al codigo, es mas que todo agregar mas funcionalidades que se pueden mejorar al funcionalidad a la pagina.
